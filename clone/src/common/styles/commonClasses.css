@@ -1,0 +1,29 @@
+.flex {
+  display: flex;
+}
+
+.absolute-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.max-width {
+  max-width: 70%;
+  margin: auto;
+}
+
+@media all and (max-width: 1279px) {
+  .max-width {
+    max-width: 80%;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .max-width {
+    max-width: 90%;
+  }
+}
